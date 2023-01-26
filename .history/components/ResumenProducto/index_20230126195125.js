@@ -7,7 +7,7 @@ const ResumenProducto = ({ producto }) => {
   const { handleEditarCantidad, handleEliminarProducto } = useQuiosco();
   return (
     <motion.div
-      className="flex-col shadow p-5 mb-3 flex gap-10 items-center md:flex-row"
+      className="flex-col shadow p-5 mb-3 flex gap-10 items-center md:"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
     >
@@ -29,7 +29,7 @@ const ResumenProducto = ({ producto }) => {
           Subtotal: {formatearDinero(producto.precio * producto.cantidad)}
         </p>
       </div>
-      <div className="flex items-end gap-1 md:flex-col">
+      <div>
         <button
           type="button"
           className="bg-sky-700 flex gap-2 px-5 py-2 text-white rounded-md font-bold uppercase shadow-md text-center w-full"

@@ -57,7 +57,7 @@ const Orden = ({ orden }) => {
           Total a pagar: {formatearDinero(total)}
         </p>
         <button
-          className="bg-indigo-600 hover:bg-indigo-800 text-white mt-5 md:mt-0 py-3 px-5 md:px-10 uppercase font-bold rounded-lg"
+          className="bg-indigo-600 hover:bg-indigo-800 text-white mt-5 md:mt-0 py-3 px-8 md:px-10 uppercase font-bold rounded-lg"
           onClick={completarOrden}
         >
           Completar Orden

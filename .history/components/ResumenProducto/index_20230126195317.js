@@ -29,7 +29,7 @@ const ResumenProducto = ({ producto }) => {
           Subtotal: {formatearDinero(producto.precio * producto.cantidad)}
         </p>
       </div>
-      <div className="flex items-end gap-1 md:flex-col">
+      <div className="flex items-end gap-5">
         <button
           type="button"
           className="bg-sky-700 flex gap-2 px-5 py-2 text-white rounded-md font-bold uppercase shadow-md text-center w-full"

@@ -6,7 +6,7 @@ const SideBar = () => {
   const { categorias } = useQuiosco();
   return (
     <>
-      <div className="flex relative justify-center">
+      <div className="flex relative justify">
         <Image
           width={300}
           height={100}
